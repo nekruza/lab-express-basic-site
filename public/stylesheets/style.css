@@ -1,0 +1,74 @@
+body{
+    /* background-color: antiquewhite; */
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-style: none;
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+}
+
+.home a:hover{
+    text-decoration: none;
+    color: rgb(24, 0, 133);
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+
+.about a:hover{
+    text-decoration: none;
+    color: rgb(24, 0, 133);
+}
+.works a{
+    text-decoration: none;
+    color: black;
+}
+
+.works a:hover{
+    text-decoration: none;
+    color: rgb(24, 0, 133);
+}
+
+.main{
+    background-image: url(/public/images/Elon-Musk-SpaceX.jpeg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+}
+
+.main h1{
+    color: white;
+    margin-left: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contaniner2{
+    width: 600px;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
