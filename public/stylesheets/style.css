@@ -46,7 +46,7 @@ body{
 }
 
 .main{
-    background-image: url(/public/images/Elon-Musk-SpaceX.jpeg);
+    background-image: url(/images/Elon-Musk-SpaceX.jpeg);
     height: 500px;
     background-size: cover;
     display: flex;
